@@ -1,0 +1,24 @@
+:root {
+    --text-color: #222;
+    --bkg-color: #fff;
+}
+
+body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #121212;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    color: var(--text-color);
+    background-color: var(--bkg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div img {
+    cursor: pointer;
+}
